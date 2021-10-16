@@ -1,0 +1,14 @@
+<h4>Demo Blog Post App</h4>
+
+<ul>
+	<li>You can create Demo Posts by clicking on 'New Post'</li>
+	<li>Or view existing posts by clicking on 'All Posts'</li>
+	<li>Friendly id slugs are added as :slug to the posts table</li>
+	<li>Validations are also added for the slugs so that the URLs don't break(i.e the slug must be present and only alphanumeric characters(A-Z or a-z & 0-9) along with dashes(-) and underscores(_) are allowed for the slugs); with a max length of 2000 characters.</li>
+	<li>You can also change/modify the existing slugs/permalink(that you've added) in this demo app, but keep in mind that changing permalinks in real world public applications(i.e in production) may cause SEO to break, i.e; your app will work fine, but SEO will not.</li>
+	<li>Please check out <%= link_to "railshero.pw", railshero_path, target: "_blank" %> for more posts</li>
+</ul>
+
+<br>
+<%= link_to "All Posts", posts_path %>
+<%= link_to "New Post", new_post_path %>

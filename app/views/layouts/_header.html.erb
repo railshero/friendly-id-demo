@@ -1,0 +1,12 @@
+<% if controller_name == "posts" && action_name == "show" %>
+<div id="right">
+<%= image_tag("/assets/slug-arrow.png", style: "width:44px;") %>
+</div>
+<% end %>
+
+<div>
+<h1>Friendly_ID Demo App</h1>
+<p>Read More about friendly ID in this post, by <%= link_to "clicking here", blogpost_path, target: "_blank" %></p>
+<%= link_to image_tag("/assets/wide-post-friendly.png", style: "width:99%;"), blogpost_path, target: "_blank" %>
+<hr style="color:red;">
+</div>
