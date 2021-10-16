@@ -1,5 +1,12 @@
 # SEO Friendly URLs with friendly_id:demo app/tutorial
 ![railshero logo](https://railshero.pw/wp-content/uploads/2021/10/logo-small.png "railshero logo")
+
+## What is it ?
+* This demo app will help you get started with friendly id. 
+* With this demo app, you can create demo posts or view existing posts. 
+* Add new slugs or edit existing slugs.
+* And even test the validation of slugs.
+
 ## Gems
 * friendly_id
 
